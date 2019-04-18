@@ -1,0 +1,7 @@
+<% require 'date' 
+current_time = time.new 
+today = current_time.strftime("The date is %A, %B %-d, %Y")
+%>
+
+<h1><%= today %></h1>
+Today is <%= Time.now.strftime('%A') %>.
