@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Date</title>
+  </head>
+  
+  <body>
+    <h1>Today</h1>
+    <%months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %>
+    <%days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] %>
+    <%date = DateTime.now %>
+    
+    
+    
+    
+    <p>
+      The date is <%= "#{days[Time.now.wday]}, #{months[date.month-1]} #{date.day}, #{date.year}" %>
+    </p>
+  </body>
+</html>
