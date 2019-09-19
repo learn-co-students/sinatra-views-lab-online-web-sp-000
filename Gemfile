@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'rake'
 gem 'thin'
+gem 'date'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
