@@ -5,9 +5,9 @@
     </head>
     <body>
       <ul>
-        <% index_items = ["See our Sponsors", "About us", "Contact us"]%>
+        <% index_items = ["See our Sponsors", "About us", "Contact us", "Joe"]%>
         <% index_items.each {|item| %> <li> <%=item%> </li> <%}%>
       </ul>
-      <p>Goodbye Joe</p>
+      <p>Goodbye <%=index_items.last%></p>
     </body>
 </html>
