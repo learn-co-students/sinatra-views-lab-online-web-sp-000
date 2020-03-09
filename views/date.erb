@@ -1,0 +1,16 @@
+<% 
+require 'date' 
+%>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+   </head>
+   <body>
+      <h1>Today</h1>
+
+      <p><% date = DateTime.now %> 
+         <%= "The date is #{date.strftime('%A, %B %d, %Y')}"%>
+      </p>
+   </body>
+</html>
