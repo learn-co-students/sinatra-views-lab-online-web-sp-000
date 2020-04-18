@@ -1,0 +1,11 @@
+<html>
+    <head><title>Date</title></head>
+    <body>
+        <% date = Date.today %>
+        <% day = date.strftime('%A')%>
+        <% month = date.strftime('%B') %>
+        <% date_number = date.strftime('%e') %>
+        <% year = date.strftime('%Y') %>
+        <p>The date is <%= day %>, <%= month %> <%= date_number %>, <%= year %> 
+    </body>
+</html>
