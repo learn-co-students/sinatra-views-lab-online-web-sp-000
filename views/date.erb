@@ -1,9 +1,12 @@
+<%# require 'date' %>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello</title>
+        <title>Date</title>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <h1>Today</h1>
+        <% d = Date.today.strftime("%A, %B %d, %Y")%>
+        <p><%= "The date is #{d}"%></p>
     </body>
 </html>
