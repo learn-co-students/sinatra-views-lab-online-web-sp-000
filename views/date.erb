@@ -1,3 +1,4 @@
-<% today = Date.today.strftime(%a, %b, %d, %y) %>
-<h1><%= "The date is today" %></h1>
+require 'date'
+<% today = DateTime.new(%a, %b, %d, %y) %>
+<h1><%= "The date is #{today}" %></h1>
 
