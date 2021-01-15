@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  <h1>Today</h1>
+  <% curr_time = DateTime.now %>
+  <% written_time = curr_time.strftime("%A, %B %d, %Y") %>
+  <p><%= "The date is " + written_time %></p>
+  </body>
+</html>
