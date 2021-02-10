@@ -1,0 +1,5 @@
+<% require 'date' %>
+
+<h1>Today<h1>
+<% curr = Time.now.strftime("%A, %B %d, %Y") %>
+<p><%= "The date is " + curr.to_s %></p>
