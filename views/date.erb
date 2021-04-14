@@ -1,0 +1,15 @@
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World - Lab 2.2</title>
+    </head>
+
+    <body>
+      <h1>Today</h1>
+      <% day = Date::DAYNAMES[Date.today.wday] %>  
+      <% month = Date::MONTHNAMES[Date.today.month] %>
+      <% dateyear = Time.now.strftime("%d, %Y") %>
+      <p><%= "The date is " + "#{day}" + ", " + "#{month}" + " #{dateyear}"%></p>
+    </body>
+</html>
